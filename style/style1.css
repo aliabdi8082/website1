@@ -29,13 +29,482 @@ body{
 .img{
     width: 100%;
 }
+.img>.part-1{
+   width: 90%;
+   margin: 0 auto;
+}
+.img>.part-1>.img-1{
+   width: 100%;
+}
+.img>.part-1>.img-1>img{
+    width:100%;
+}
+.img>.part-1>.txt{
+    width: 100%;
+}
+.img>.part-1>.txt>span{
+    font-size: 16px;
+    font-family: var(--font);
+    color: rgba(255, 255, 255, 0.2);
+    text-transform: uppercase;
+    padding: 30px 20px 0;
+    display: inline-block;
+}
+.img>.part-1>.txt>h1{
+    color: white;
+    font-family:"Abril Fatface", cursive;
+    padding: 10px 20px 0;
+    font-size: 42px;
+}
+.img>.part-1>.txt>p{
+    font-family: var(--font);
+    color: #666;
+    padding: 10px 20px;
+    line-height: 24px;
+    position: relative;
+}
+.img>.part-1>.txt>p::before{
+    content: "";
+    display: inline-block;
+    position: absolute;
+    left: 8px;
+    top: 14px;
+    width: 2px;
+    height: 44px;
+    background-color: #f3c623;
+}
+.img>.part-1>.txt>button{
+    border: none;
+    outline: none;
+    padding: 4px 7px;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 14px 20px 30px;
+    background-color: transparent;
+    border: 1px solid #f3c623;
+    color: #f3c623;
+    letter-spacing: 3px;
+}
+/* -----------------part-2----------------------- */
+.img>.part-2{
+    width: 90%;
+    margin: 0 auto;
+
+ }
+ .img>.part-2>.img-1{
+    width: 100%;
+ }
+ .img>.part-2>.img-1>img{
+     width:100%;
+ }
+ .img>.part-2>.txt{
+     width: 100%;
+ }
+ .img>.part-2>.txt>span{
+     font-size: 16px;
+     font-family: var(--font);
+     color: rgba(255, 255, 255, 0.2);
+     text-transform: uppercase;
+     padding: 30px 20px 0;
+     display: inline-block;
+ }
+ .img>.part-2>.txt>h1{
+     color: white;
+     font-family:"Abril Fatface", cursive;
+     padding: 10px 20px 0;
+     font-size: 42px;
+ }
+ .img>.part-2>.txt>p{
+     font-family: var(--font);
+     color: #666;
+     padding: 10px 20px;
+     line-height: 24px;
+     position: relative;
+ }
+ .img>.part-2>.txt>p::before{
+     content: "";
+     display: inline-block;
+     position: absolute;
+     left: 8px;
+     top: 14px;
+     width: 2px;
+     height: 44px;
+     background-color: #f3c623;
+ }
+ .img>.part-2>.txt>button{
+     border: none;
+     outline: none;
+     padding: 4px 7px;
+     font-size: 12px;
+     font-weight: 700;
+     text-transform: uppercase;
+     margin: 14px 20px 30px;
+     background-color: transparent;
+     border: 1px solid #f3c623;
+     color: #f3c623;
+     letter-spacing: 3px;
+ }
+/* -------------------------------part-3--------------- */
+.img>.part-3{
+    width: 90%;
+    margin: 0 auto;
+ }
+ .img>.part-3>.img-1{
+    width: 100%;
+ }
+ .img>.part-3>.img-1>img{
+     width:100%;
+ }
+ .img>.part-3>.txt{
+     width: 100%;
+ }
+ .img>.part-3>.txt>span{
+     font-size: 16px;
+     font-family: var(--font);
+     color: rgba(255, 255, 255, 0.2);
+     text-transform: uppercase;
+     padding: 30px 20px 0;
+     display: inline-block;
+ }
+ .img>.part-3>.txt>h1{
+     color: white;
+     font-family:"Abril Fatface", cursive;
+     padding: 10px 20px 0;
+     font-size: 42px;
+ }
+ .img>.part-3>.txt>p{
+     font-family: var(--font);
+     color: #666;
+     padding: 10px 20px;
+     line-height: 24px;
+     position: relative;
+ }
+ .img>.part-3>.txt>p::before{
+     content: "";
+     display: inline-block;
+     position: absolute;
+     left: 8px;
+     top: 14px;
+     width: 2px;
+     height: 44px;
+     background-color: #f3c623;
+ }
+ .img>.part-3>.txt>button{
+     border: none;
+     outline: none;
+     padding: 4px 7px;
+     font-size: 12px;
+     font-weight: 700;
+     text-transform: uppercase;
+     margin: 14px 20px 30px;
+     background-color: transparent;
+     border: 1px solid #f3c623;
+     color: #f3c623;
+     letter-spacing: 3px;
+ }
+/* --------------------prt-4----------------------------------- */
+.img>.part-4{
+    width: 90%;
+    margin: 0 auto;
+
+ }
+ .img>.part-4>.img-1{
+    width: 100%;
+ }
+ .img>.part-4>.img-1>img{
+     width:100%;
+ }
+ .img>.part-4>.txt{
+     width: 100%;
+ }
+ .img>.part-4>.txt>span{
+     font-size: 16px;
+     font-family: var(--font);
+     color: rgba(255, 255, 255, 0.2);
+     text-transform: uppercase;
+     padding: 30px 20px 0;
+     display: inline-block;
+ }
+ .img>.part-4>.txt>h1{
+     color: white;
+     font-family:"Abril Fatface", cursive;
+     padding: 10px 20px 0;
+     font-size: 42px;
+ }
+ .img>.part-4>.txt>p{
+     font-family: var(--font);
+     color: #666;
+     padding: 10px 20px;
+     line-height: 24px;
+     position: relative;
+ }
+ .img>.part-4>.txt>p::before{
+     content: "";
+     display: inline-block;
+     position: absolute;
+     left: 8px;
+     top: 14px;
+     width: 2px;
+     height: 44px;
+     background-color: #f3c623;
+ }
+ .img>.part-4>.txt>button{
+     border: none;
+     outline: none;
+     padding: 4px 7px;
+     font-size: 12px;
+     font-weight: 700;
+     text-transform: uppercase;
+     margin: 14px 20px 30px;
+     background-color: transparent;
+     border: 1px solid #f3c623;
+     color: #f3c623;
+     letter-spacing: 3px;
+ }
+/* -------------------part-5--------------------------------- */
+.img>.part-5{
+    width: 90%;
+    margin: 0 auto;
+
+ }
+ .img>.part-5>.img-1{
+    width: 100%;
+ }
+ .img>.part-5>.img-1>img{
+     width:100%;
+ }
+ .img>.part-5>.txt{
+     width: 100%;
+ }
+ .img>.part-5>.txt>span{
+     font-size: 16px;
+     font-family: var(--font);
+     color: rgba(255, 255, 255, 0.2);
+     text-transform: uppercase;
+     padding: 30px 20px 0;
+     display: inline-block;
+ }
+ .img>.part-5>.txt>h1{
+     color: white;
+     font-family:"Abril Fatface", cursive;
+     padding: 10px 20px 0;
+     font-size: 42px;
+ }
+ .img>.part-5>.txt>p{
+     font-family: var(--font);
+     color: #666;
+     padding: 10px 20px;
+     line-height: 24px;
+     position: relative;
+ }
+ .img>.part-5>.txt>p::before{
+     content: "";
+     display: inline-block;
+     position: absolute;
+     left: 8px;
+     top: 14px;
+     width: 2px;
+     height: 44px;
+     background-color: #f3c623;
+ }
+ .img>.part-5>.txt>button{
+     border: none;
+     outline: none;
+     padding: 4px 7px;
+     font-size: 12px;
+     font-weight: 700;
+     text-transform: uppercase;
+     margin: 14px 20px 30px;
+     background-color: transparent;
+     border: 1px solid #f3c623;
+     color: #f3c623;
+     letter-spacing: 3px;
+ }
+/* ---------------------------part-6------------------------- */
+.img>.part-6{
+    width: 90%;
+    margin: 0 auto;
+
+ }
+ .img>.part-6>.img-1{
+    width: 100%;
+ }
+ .img>.part-6>.img-1>img{
+     width:100%;
+ }
+ .img>.part-6>.txt{
+     width: 100%;
+ }
+ .img>.part-6>.txt>span{
+     font-size: 16px;
+     font-family: var(--font);
+     color: rgba(255, 255, 255, 0.2);
+     text-transform: uppercase;
+     padding: 30px 20px 0;
+     display: inline-block;
+ }
+ .img>.part-6>.txt>h1{
+     color: white;
+     font-family:"Abril Fatface", cursive;
+     padding: 10px 20px 0;
+     font-size: 42px;
+ }
+ .img>.part-6>.txt>p{
+     font-family: var(--font);
+     color: #666;
+     padding: 10px 20px;
+     line-height: 24px;
+     position: relative;
+ }
+ .img>.part-6>.txt>p::before{
+     content: "";
+     display: inline-block;
+     position: absolute;
+     left: 8px;
+     top: 14px;
+     width: 2px;
+     height: 44px;
+     background-color: #f3c623;
+ }
+ .img>.part-6>.txt>button{
+     border: none;
+     outline: none;
+     padding: 4px 7px;
+     font-size: 12px;
+     font-weight: 700;
+     text-transform: uppercase;
+     margin: 14px 20px 30px;
+     background-color: transparent;
+     border: 1px solid #f3c623;
+     color: #f3c623;
+     letter-spacing: 3px;
+ }
+/* ------------------------part-7------------------- */
+.img>.part-7{
+    width: 90%;
+    margin: 0 auto;
+
+ }
+ .img>.part-7>.img-1{
+    width: 100%;
+ }
+ .img>.part-7>.img-1>img{
+     width:100%;
+ }
+ .img>.part-7>.txt{
+     width: 100%;
+ }
+ .img>.part-7>.txt>span{
+     font-size: 16px;
+     font-family: var(--font);
+     color: rgba(255, 255, 255, 0.2);
+     text-transform: uppercase;
+     padding: 30px 20px 0;
+     display: inline-block;
+ }
+ .img>.part-7>.txt>h1{
+     color: white;
+     font-family:"Abril Fatface", cursive;
+     padding: 10px 20px 0;
+     font-size: 42px;
+ }
+ .img>.part-7>.txt>p{
+     font-family: var(--font);
+     color: #666;
+     padding: 10px 20px;
+     line-height: 24px;
+     position: relative;
+ }
+ .img>.part-7>.txt>p::before{
+     content: "";
+     display: inline-block;
+     position: absolute;
+     left: 8px;
+     top: 14px;
+     width: 2px;
+     height: 44px;
+     background-color: #f3c623;
+ }
+ .img>.part-7>.txt>button{
+     border: none;
+     outline: none;
+     padding: 4px 7px;
+     font-size: 12px;
+     font-weight: 700;
+     text-transform: uppercase;
+     margin: 14px 20px 30px;
+     background-color: transparent;
+     border: 1px solid #f3c623;
+     color: #f3c623;
+     letter-spacing: 3px;
+ }
+ /* ----------------------------------part-8------------------- */
+ .img>.part-8{
+    width: 90%;
+    margin: 0 auto;
+
+ }
+ .img>.part-8>.img-1{
+    width: 100%;
+ }
+ .img>.part-8>.img-1>img{
+     width:100%;
+ }
+ .img>.part-8>.txt{
+     width: 100%;
+ }
+ .img>.part-8>.txt>span{
+     font-size: 16px;
+     font-family: var(--font);
+     color: rgba(255, 255, 255, 0.2);
+     text-transform: uppercase;
+     padding: 30px 20px 0;
+     display: inline-block;
+ }
+ .img>.part-8>.txt>h1{
+     color: white;
+     font-family:"Abril Fatface", cursive;
+     padding: 10px 20px 0;
+     font-size: 42px;
+ }
+ .img>.part-8>.txt>p{
+     font-family: var(--font);
+     color: #666;
+     padding: 10px 20px;
+     line-height: 24px;
+     position: relative;
+ }
+ .img>.part-8>.txt>p::before{
+     content: "";
+     display: inline-block;
+     position: absolute;
+     left: 8px;
+     top: 14px;
+     width: 2px;
+     height: 44px;
+     background-color: #f3c623;
+ }
+ .img>.part-8>.txt>button{
+     border: none;
+     outline: none;
+     padding: 4px 7px;
+     font-size: 12px;
+     font-weight: 700;
+     text-transform: uppercase;
+     margin: 14px 20px 30px;
+     background-color: transparent;
+     border: 1px solid #f3c623;
+     color: #f3c623;
+     letter-spacing: 3px;
+ }
+ /* ---------------------------------footer----------------------------- */
 .img>.footer{
     width: 100%;
 }
 .img>.footer>.txt{
     width: 90%;
     background-color: #f3c623;
-    margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: center;
