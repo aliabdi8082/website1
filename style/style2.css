@@ -30,7 +30,7 @@ body {
   width: 100%;
 }
 .img > .part-1 {
-  width: 90%;
+  width:500px;
   margin: 0 auto;
 }
 .img > .part-1 > .img-1 {
@@ -88,7 +88,7 @@ body {
 }
 /* -----------------part-2----------------------- */
 .img > .part-2 {
-  width: 90%;
+  width:500px;
   margin: 0 auto;
 }
 .img > .part-2 > .img-1 {
@@ -146,7 +146,7 @@ body {
 }
 /* -------------------------------part-3--------------- */
 .img > .part-3 {
-  width: 90%;
+  width:500px;
   margin: 0 auto;
 }
 .img > .part-3 > .img-1 {
@@ -204,7 +204,7 @@ body {
 }
 /* --------------------prt-4----------------------------------- */
 .img > .part-4 {
-  width: 90%;
+  width:500px;
   margin: 0 auto;
 }
 .img > .part-4 > .img-1 {
@@ -262,7 +262,7 @@ body {
 }
 /* -------------------part-5--------------------------------- */
 .img > .part-5 {
-  width: 90%;
+  width:500px;
   margin: 0 auto;
 }
 .img > .part-5 > .img-1 {
@@ -320,7 +320,7 @@ body {
 }
 /* ---------------------------part-6------------------------- */
 .img > .part-6 {
-  width: 90%;
+  width:500px;
   margin: 0 auto;
 }
 .img > .part-6 > .img-1 {
@@ -378,7 +378,7 @@ body {
 }
 /* ------------------------part-7------------------- */
 .img > .part-7 {
-  width: 90%;
+  width:500px;
   margin: 0 auto;
 }
 .img > .part-7 > .img-1 {
@@ -436,7 +436,7 @@ body {
 }
 /* ----------------------------------part-8------------------- */
 .img > .part-8 {
-  width: 90%;
+  width:500px;
   margin: 0 auto;
 }
 .img > .part-8 > .img-1 {
@@ -494,15 +494,16 @@ body {
 }
 /* ---------------------------------footer----------------------------- */
 .img > .footer {
-  width: 100%;
+  width: 98%;
 }
 .img > .footer > .txt {
-  width: 98%;
+  width: 480px;
   background-color: #f3c623;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 28px 0;
+  padding: 30px 0;
+  margin: 0 auto;
 }
 .img > .footer > .txt > h2 {
   text-align: center;
