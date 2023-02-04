@@ -13,6 +13,9 @@ body {
   width: 100%;
   display: flex;
 }
+.menu {
+  display: none;
+}
 .side {
   position: sticky;
   top: 0;

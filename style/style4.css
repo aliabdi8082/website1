@@ -13,37 +13,69 @@ body {
   width: 100%;
   display: flex;
 }
-.menu {
-  display: none;
-}
-.side {
+.parent{
   position: sticky;
   top: 0;
-  padding-top: 8px;
-  padding-left: 10px;
-  width: 10%;
-  height: 40px;
+  width: 28%;
+  height: 576px;
+  overflow: hidden;
+  background-color: #000;
 }
-.side > i {
-  font-size: 35px;
+.parent>.menu{
+  width:100%;
+}
+.menu::after{
+  content: "";
+  display: block;
+  width: 14px;
+  height: 580px;
+  position: absolute;
+  right: -3px;
+  top: 0;
+  background-image: url(..//images/aside.png.webp);
+}
+.parent>.menu>h2{
+  font-size: 44px;
   color: white;
+  padding-top: 20px;
+  padding-bottom: 0;
+  width: 100%;
+  text-align: center;
+  font-family: "Abril Fatface", cursive;
+  user-select: none;
   cursor: pointer;
+
+  background-image: url(..//images/bg_h.webp);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.side {
+  display: none;
 }
 .img {
-  width: 100%;
-}
-.img > .part-1 {
-  width:500px;
+  width: 70%;
   margin: 0 auto;
+}
+.img>.part-1 {
+  width:100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .img > .part-1 > .img-1 {
   width: 100%;
 }
 .img > .part-1 > .img-1 > img {
   width: 100%;
+  margin-left: 19px;
 }
 .img > .part-1 > .txt {
   width: 100%;
+  margin-left: 40px;
 }
 .img > .part-1 > .txt > span {
   font-size: 16px;
@@ -91,14 +123,19 @@ body {
 }
 /* -----------------part-2----------------------- */
 .img > .part-2 {
-  width:500px;
+  width:100%;
   margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row-reverse;
 }
 .img > .part-2 > .img-1 {
   width: 100%;
 }
 .img > .part-2 > .img-1 > img {
   width: 100%;
+  margin-right: 100px;
 }
 .img > .part-2 > .txt {
   width: 100%;
@@ -123,12 +160,13 @@ body {
   padding: 10px 20px;
   line-height: 24px;
   position: relative;
+  text-align: justify;
 }
-.img > .part-2 > .txt > p::before {
+.img > .part-2 > .txt > p::after {
   content: "";
   display: inline-block;
   position: absolute;
-  left: 8px;
+  right:10px;
   top: 14px;
   width: 2px;
   height: 44px;
@@ -149,17 +187,22 @@ body {
 }
 /* -------------------------------part-3--------------- */
 .img > .part-3 {
-  width:500px;
+  width:100%;
   margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .img > .part-3 > .img-1 {
   width: 100%;
 }
 .img > .part-3 > .img-1 > img {
   width: 100%;
+  margin-left: 10px;
 }
 .img > .part-3 > .txt {
   width: 100%;
+  margin-left: 24px;
 }
 .img > .part-3 > .txt > span {
   font-size: 16px;
@@ -207,8 +250,12 @@ body {
 }
 /* --------------------prt-4----------------------------------- */
 .img > .part-4 {
-  width:500px;
+  width:100%;
   margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row-reverse;
 }
 .img > .part-4 > .img-1 {
   width: 100%;
@@ -239,12 +286,13 @@ body {
   padding: 10px 20px;
   line-height: 24px;
   position: relative;
+  text-align: justify;
 }
-.img > .part-4 > .txt > p::before {
+.img > .part-4 > .txt > p::after {
   content: "";
   display: inline-block;
   position: absolute;
-  left: 8px;
+  right:10px;
   top: 14px;
   width: 2px;
   height: 44px;
@@ -265,11 +313,14 @@ body {
 }
 /* -------------------part-5--------------------------------- */
 .img > .part-5 {
-  width:500px;
+  width: 100%;
   margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .img > .part-5 > .img-1 {
-  width: 100%;
+  width:100%;
 }
 .img > .part-5 > .img-1 > img {
   width: 100%;
@@ -323,8 +374,12 @@ body {
 }
 /* ---------------------------part-6------------------------- */
 .img > .part-6 {
-  width:500px;
+  width:100%;
   margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row-reverse;
 }
 .img > .part-6 > .img-1 {
   width: 100%;
@@ -355,12 +410,13 @@ body {
   padding: 10px 20px;
   line-height: 24px;
   position: relative;
+  text-align: justify;
 }
-.img > .part-6 > .txt > p::before {
+.img > .part-6 > .txt > p::after {
   content: "";
   display: inline-block;
   position: absolute;
-  left: 8px;
+  right:8px;
   top: 14px;
   width: 2px;
   height: 44px;
@@ -381,8 +437,11 @@ body {
 }
 /* ------------------------part-7------------------- */
 .img > .part-7 {
-  width:500px;
+  width:100%;
   margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .img > .part-7 > .img-1 {
   width: 100%;
@@ -439,8 +498,12 @@ body {
 }
 /* ----------------------------------part-8------------------- */
 .img > .part-8 {
-  width:500px;
+  width:100%;
   margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row-reverse;
 }
 .img > .part-8 > .img-1 {
   width: 100%;
@@ -471,12 +534,13 @@ body {
   padding: 10px 20px;
   line-height: 24px;
   position: relative;
+  text-align: justify;
 }
-.img > .part-8 > .txt > p::before {
+.img > .part-8 > .txt > p::after {
   content: "";
   display: inline-block;
   position: absolute;
-  left: 8px;
+  right: 8px;
   top: 14px;
   width: 2px;
   height: 44px;
@@ -497,15 +561,15 @@ body {
 }
 /* ---------------------------------footer----------------------------- */
 .img > .footer {
-  width: 98%;
+  width: 100%;
 }
 .img > .footer > .txt {
-  width: 480px;
+  width:100%;
   background-color: #f3c623;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 30px 0;
+  padding: 25px 0;
   margin: 0 auto;
 }
 .img > .footer > .txt > h2 {
