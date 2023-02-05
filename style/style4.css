@@ -16,7 +16,7 @@ body {
 .parent{
   position: sticky;
   top: 0;
-  width: 28%;
+  width: 25%;
   height: 576px;
   overflow: hidden;
   background-color: #000;
@@ -35,12 +35,10 @@ body {
   background-image: url(..//images/aside.png.webp);
 }
 .parent>.menu>h2{
-  font-size: 44px;
+  font-size: 50px;
   color: white;
-  padding-top: 20px;
-  padding-bottom: 0;
+  padding: 30px 10px 20px 20px;
   width: 100%;
-  text-align: center;
   font-family: "Abril Fatface", cursive;
   user-select: none;
   cursor: pointer;
@@ -52,6 +50,140 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
 }
+.parent>.menu>ul{
+  list-style-type: none;
+  width: 100%;
+}
+.parent>.menu>ul>li{
+  width: max-content;
+  margin: 10px 0;
+  padding: 14px 28px 0 20px;
+  cursor: pointer;
+}
+.parent>.menu>ul>li>a{
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.8);
+  text-transform: uppercase;
+  font-family: sans-serif;
+  position: relative;
+  padding-bottom: 6px;
+}
+.parent>.menu>ul>li:hover>a{
+  color: #f3c623;
+}
+.parent>.menu>ul>li:nth-child(1)>a{
+  border-bottom: 3px solid #f3c623;
+  color: #f3c623;
+}
+.parent>.menu>ul>li:nth-child(2)>a::after{
+  content: "";
+  display: inline-block;
+  width: 0px;
+  height: 3px;
+  background-color: #f3c623;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  right: 0;
+ 
+  transition: all 0.2s linear;
+ }
+ .parent>.menu>ul>li:nth-child(2):hover>a::after{
+   width: 100%;
+   right: 0;
+   left: 0;
+ }
+ .parent>.menu>ul>li:nth-child(3)>a::after{
+  content: "";
+  display: inline-block;
+  width: 0px;
+  height: 3px;
+  background-color: #f3c623;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  right: 0;
+ 
+  transition: all 0.2s linear;
+ }
+ .parent>.menu>ul>li:nth-child(3):hover>a::after{
+   width: 100%;
+   right: 0;
+   left: 0;
+ }
+ .parent>.menu>ul>li:nth-child(4)>a::after{
+  content: "";
+  display: inline-block;
+  width: 0px;
+  height: 3px;
+  background-color: #f3c623;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  right: 0;
+ 
+  transition: all 0.2s linear;
+ }
+ .parent>.menu>ul>li:nth-child(4):hover>a::after{
+   width: 100%;
+   right: 0;
+   left: 0;
+ }
+ .parent>.menu>ul>li:nth-child(5)>a::after{
+  content: "";
+  display: inline-block;
+  width: 0px;
+  height: 3px;
+  background-color: #f3c623;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  right: 0;
+ 
+  transition: all 0.2s linear;
+ }
+ .parent>.menu>ul>li:nth-child(5):hover>a::after{
+   width: 100%;
+   right: 0;
+   left: 0;
+ }
+ .parent>.menu>h5{
+  color: rgba(255, 255, 255, 0.5);
+  font-family: sans-serif;
+  padding: 10px 20px;
+  font-size: 13px;
+ }
+ .parent>.menu>input{
+  margin: 10px 20px;
+  padding: 15px 28px 15px 5px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  border: 1px solid #6a6a6ac4;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 14px;
+ }
+ .parent>.menu>p{
+  color: #666666c9;
+  padding: 10px 20px;
+  font-family: sans-serif;
+  line-height: 24px;
+  letter-spacing: 1px;
+ }
+ .parent>.menu>p>i{
+  color:#666666c9;
+  padding: 0 4px;
+ }
+ .parent>.menu>p>span{
+  color: white;
+  display: block;
+ }
+
+
+
 .side {
   display: none;
 }
