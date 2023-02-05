@@ -1,0 +1,720 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --font: "Poppins", Arial, sans-serif;
+}
+body {
+  background-color: #121212;
+}
+.container {
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+}
+.parent{
+  position: sticky;
+  top: 0;
+  width: 25%;
+  height: 638px;
+  overflow: hidden;
+  background-color: #000;
+}
+.parent>.menu{
+  width:100%;
+}
+.menu::after{
+  content: "";
+  display: block;
+  width: 14px;
+  height: 647px;
+  position: absolute;
+  right: -3px;
+  top: 0;
+  background-image: url(..//images/aside.png.webp);
+}
+.parent>.menu>h2{
+  font-size: 50px;
+  color: white;
+  padding: 30px 10px 20px 20px;
+  width: 100%;
+  font-family: "Abril Fatface", cursive;
+  user-select: none;
+  cursor: pointer;
+
+  background-image: url(..//images/bg_h.webp);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.parent>.menu>ul{
+  list-style-type: none;
+  width: 100%;
+}
+.parent>.menu>ul>li{
+  width: max-content;
+  margin: 18px 0;
+  padding: 14px 28px 0 20px;
+  cursor: pointer;
+}
+.parent>.menu>ul>li>a{
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.8);
+  text-transform: uppercase;
+  font-family: sans-serif;
+  position: relative;
+  padding-bottom: 6px;
+}
+.parent>.menu>ul>li:hover>a{
+  color: #f3c623;
+}
+.parent>.menu>ul>li:nth-child(1)>a{
+  border-bottom: 3px solid #f3c623;
+  color: #f3c623;
+}
+.parent>.menu>ul>li:nth-child(2)>a::after{
+  content: "";
+  display: inline-block;
+  width: 0px;
+  height: 3px;
+  background-color: #f3c623;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  right: 0;
+ 
+  transition: all 0.2s linear;
+ }
+ .parent>.menu>ul>li:nth-child(2):hover>a::after{
+   width: 100%;
+   right: 0;
+   left: 0;
+ }
+ .parent>.menu>ul>li:nth-child(3)>a::after{
+  content: "";
+  display: inline-block;
+  width: 0px;
+  height: 3px;
+  background-color: #f3c623;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  right: 0;
+ 
+  transition: all 0.2s linear;
+ }
+ .parent>.menu>ul>li:nth-child(3):hover>a::after{
+   width: 100%;
+   right: 0;
+   left: 0;
+ }
+ .parent>.menu>ul>li:nth-child(4)>a::after{
+  content: "";
+  display: inline-block;
+  width: 0px;
+  height: 3px;
+  background-color: #f3c623;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  right: 0;
+ 
+  transition: all 0.2s linear;
+ }
+ .parent>.menu>ul>li:nth-child(4):hover>a::after{
+   width: 100%;
+   right: 0;
+   left: 0;
+ }
+ .parent>.menu>ul>li:nth-child(5)>a::after{
+  content: "";
+  display: inline-block;
+  width: 0px;
+  height: 3px;
+  background-color: #f3c623;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  right: 0;
+ 
+  transition: all 0.2s linear;
+ }
+ .parent>.menu>ul>li:nth-child(5):hover>a::after{
+   width: 100%;
+   right: 0;
+   left: 0;
+ }
+ .parent>.menu>h5{
+  color: rgba(255, 255, 255, 0.5);
+  font-family: sans-serif;
+  padding: 34px 20px 0;
+  font-size: 13px;
+ }
+ .parent>.menu>input{
+  margin: 14px 20px 0;
+  padding: 18px 80px 18px 8px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  border: 1px solid #6a6a6ac4;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 14px;
+ }
+ .parent>.menu>p{
+  color: #666666c9;
+  padding: 18px 20px 0;
+  font-family: sans-serif;
+  line-height: 24px;
+  letter-spacing: 1px;
+  font-size: 15px;
+ }
+ .parent>.menu>p>i{
+  color:#666666c9;
+  padding: 0 4px;
+ }
+ .parent>.menu>p>span{
+  color: white;
+  display: block;
+ }
+.side {
+  display: none;
+}
+.img {
+  width: 80%;
+  margin: 0 auto;
+}
+.img>.part-1 {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.img > .part-1 > .img-1 {
+  width: 100%;
+}
+.img > .part-1 > .img-1 > img {
+  width: 500px;
+  margin: 0 10px;
+}
+.img > .part-1 > .txt {
+  width: 100%;
+  margin-left: 40px;
+}
+.img > .part-1 > .txt > span {
+  font-size: 16px;
+  font-family: var(--font);
+  color: rgba(255, 255, 255, 0.2);
+  text-transform: uppercase;
+  padding: 30px 20px 0;
+  display: inline-block;
+}
+.img > .part-1 > .txt > h1 {
+  color: white;
+  font-family: "Abril Fatface", cursive;
+  padding: 10px 20px 0;
+  font-size: 42px;
+}
+.img > .part-1 > .txt > p {
+  font-family: var(--font);
+  color: #666;
+  padding: 10px 20px;
+  line-height: 24px;
+  position: relative;
+}
+.img > .part-1 > .txt > p::before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  left: 8px;
+  top: 14px;
+  width: 2px;
+  height: 44px;
+  background-color: #f3c623;
+}
+.img > .part-1 > .txt > button {
+  border: none;
+  outline: none;
+  padding: 4px 7px;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 14px 20px 30px;
+  background-color: transparent;
+  border: 1px solid #f3c623;
+  color: #f3c623;
+  letter-spacing: 3px;
+}
+/* -----------------part-2----------------------- */
+.img > .part-2 {
+  width:100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row-reverse;
+}
+.img > .part-2 > .img-1 {
+  width: 100%;
+}
+.img > .part-2 > .img-1 > img {
+  width:500px;
+  margin: 0 15px 0 0;
+}
+.img > .part-2 > .txt {
+  width: 100%;
+  margin-right: 40px;
+}
+.img > .part-2 > .txt > span {
+  font-size: 16px;
+  font-family: var(--font);
+  color: rgba(255, 255, 255, 0.2);
+  text-transform: uppercase;
+  padding: 30px 20px 0;
+  display: inline-block;
+}
+.img > .part-2 > .txt > h1 {
+  color: white;
+  font-family: "Abril Fatface", cursive;
+  padding: 10px 20px 0;
+  font-size: 42px;
+}
+.img > .part-2 > .txt > p {
+  font-family: var(--font);
+  color: #666;
+  padding: 10px 20px;
+  line-height: 24px;
+  position: relative;
+  text-align: justify;
+}
+.img > .part-2 > .txt > p::after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  right:10px;
+  top: 14px;
+  width: 2px;
+  height: 44px;
+  background-color: #f3c623;
+}
+.img > .part-2 > .txt > button {
+  border: none;
+  outline: none;
+  padding: 4px 7px;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 14px 20px 30px;
+  background-color: transparent;
+  border: 1px solid #f3c623;
+  color: #f3c623;
+  letter-spacing: 3px;
+}
+/* -------------------------------part-3--------------- */
+.img > .part-3 {
+  width:100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.img > .part-3 > .img-1 {
+  width: 100%;
+}
+.img > .part-3 > .img-1 > img {
+  width:500px;
+  margin-left: 10px;
+}
+.img > .part-3 > .txt {
+  width: 100%;
+  margin-left: 40px;
+}
+.img > .part-3 > .txt > span {
+  font-size: 16px;
+  font-family: var(--font);
+  color: rgba(255, 255, 255, 0.2);
+  text-transform: uppercase;
+  padding: 30px 20px 0;
+  display: inline-block;
+}
+.img > .part-3 > .txt > h1 {
+  color: white;
+  font-family: "Abril Fatface", cursive;
+  padding: 10px 20px 0;
+  font-size: 42px;
+}
+.img > .part-3 > .txt > p {
+  font-family: var(--font);
+  color: #666;
+  padding: 10px 20px;
+  line-height: 24px;
+  position: relative;
+}
+.img > .part-3 > .txt > p::before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  left: 8px;
+  top: 14px;
+  width: 2px;
+  height: 44px;
+  background-color: #f3c623;
+}
+.img > .part-3 > .txt > button {
+  border: none;
+  outline: none;
+  padding: 4px 7px;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 14px 20px 30px;
+  background-color: transparent;
+  border: 1px solid #f3c623;
+  color: #f3c623;
+  letter-spacing: 3px;
+}
+/* --------------------prt-4----------------------------------- */
+.img > .part-4 {
+  width:100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row-reverse;
+}
+.img > .part-4 > .img-1 {
+  width: 100%;
+}
+.img > .part-4 > .img-1 > img {
+  width: 500px;
+}
+.img > .part-4 > .txt {
+  width: 100%;
+  margin-right: 2px;
+}
+.img > .part-4 > .txt > span {
+  font-size: 16px;
+  font-family: var(--font);
+  color: rgba(255, 255, 255, 0.2);
+  text-transform: uppercase;
+  padding: 30px 20px 0;
+  display: inline-block;
+}
+.img > .part-4 > .txt > h1 {
+  color: white;
+  font-family: "Abril Fatface", cursive;
+  padding: 10px 20px 0;
+  font-size: 42px;
+}
+.img > .part-4 > .txt > p {
+  font-family: var(--font);
+  color: #666;
+  padding: 10px 20px;
+  line-height: 24px;
+  position: relative;
+  text-align: justify;
+}
+.img > .part-4 > .txt > p::after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  right:10px;
+  top: 14px;
+  width: 2px;
+  height: 44px;
+  background-color: #f3c623;
+}
+.img > .part-4 > .txt > button {
+  border: none;
+  outline: none;
+  padding: 4px 7px;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 14px 20px 30px;
+  background-color: transparent;
+  border: 1px solid #f3c623;
+  color: #f3c623;
+  letter-spacing: 3px;
+}
+/* -------------------part-5--------------------------------- */
+.img > .part-5 {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.img > .part-5 > .img-1 {
+  width:100%;
+}
+.img > .part-5 > .img-1 > img {
+  width: 100%;
+}
+.img > .part-5 > .txt {
+  width: 100%;
+  margin-left: 4px;
+}
+.img > .part-5 > .txt > span {
+  font-size: 16px;
+  font-family: var(--font);
+  color: rgba(255, 255, 255, 0.2);
+  text-transform: uppercase;
+  padding: 30px 20px 0;
+  display: inline-block;
+}
+.img > .part-5 > .txt > h1 {
+  color: white;
+  font-family: "Abril Fatface", cursive;
+  padding: 10px 20px 0;
+  font-size: 42px;
+}
+.img > .part-5 > .txt > p {
+  font-family: var(--font);
+  color: #666;
+  padding: 10px 20px;
+  line-height: 24px;
+  position: relative;
+}
+.img > .part-5 > .txt > p::before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  left: 8px;
+  top: 14px;
+  width: 2px;
+  height: 44px;
+  background-color: #f3c623;
+}
+.img > .part-5 > .txt > button {
+  border: none;
+  outline: none;
+  padding: 4px 7px;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 14px 20px 30px;
+  background-color: transparent;
+  border: 1px solid #f3c623;
+  color: #f3c623;
+  letter-spacing: 3px;
+}
+/* ---------------------------part-6------------------------- */
+.img > .part-6 {
+  width:100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row-reverse;
+}
+.img > .part-6 > .img-1 {
+  width: 100%;
+}
+.img > .part-6 > .img-1 > img {
+  width: 500px;
+}
+.img > .part-6 > .txt {
+  width: 100%;
+  margin-right: 4px;
+}
+.img > .part-6 > .txt > span {
+  font-size: 16px;
+  font-family: var(--font);
+  color: rgba(255, 255, 255, 0.2);
+  text-transform: uppercase;
+  padding: 30px 20px 0;
+  display: inline-block;
+}
+.img > .part-6 > .txt > h1 {
+  color: white;
+  font-family: "Abril Fatface", cursive;
+  padding: 10px 20px 0;
+  font-size: 42px;
+}
+.img > .part-6 > .txt > p {
+  font-family: var(--font);
+  color: #666;
+  padding: 10px 20px;
+  line-height: 24px;
+  position: relative;
+  text-align: justify;
+}
+.img > .part-6 > .txt > p::after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  right:8px;
+  top: 14px;
+  width: 2px;
+  height: 44px;
+  background-color: #f3c623;
+}
+.img > .part-6 > .txt > button {
+  border: none;
+  outline: none;
+  padding: 4px 7px;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 14px 20px 30px;
+  background-color: transparent;
+  border: 1px solid #f3c623;
+  color: #f3c623;
+  letter-spacing: 3px;
+}
+/* ------------------------part-7------------------- */
+.img > .part-7 {
+  width:100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.img > .part-7 > .img-1 {
+  width: 100%;
+}
+.img > .part-7 > .img-1 > img {
+  width:500px;
+}
+.img > .part-7 > .txt {
+  width: 100%;
+  margin-left: 10px;
+}
+.img > .part-7 > .txt > span {
+  font-size: 16px;
+  font-family: var(--font);
+  color: rgba(255, 255, 255, 0.2);
+  text-transform: uppercase;
+  padding: 30px 20px 0;
+  display: inline-block;
+}
+.img > .part-7 > .txt > h1 {
+  color: white;
+  font-family: "Abril Fatface", cursive;
+  padding: 10px 20px 0;
+  font-size: 42px;
+}
+.img > .part-7 > .txt > p {
+  font-family: var(--font);
+  color: #666;
+  padding: 10px 20px;
+  line-height: 24px;
+  position: relative;
+}
+.img > .part-7 > .txt > p::before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  left: 8px;
+  top: 14px;
+  width: 2px;
+  height: 44px;
+  background-color: #f3c623;
+}
+.img > .part-7 > .txt > button {
+  border: none;
+  outline: none;
+  padding: 4px 7px;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 14px 20px 30px;
+  background-color: transparent;
+  border: 1px solid #f3c623;
+  color: #f3c623;
+  letter-spacing: 3px;
+}
+/* ----------------------------------part-8------------------- */
+.img > .part-8 {
+  width:100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row-reverse;
+}
+.img > .part-8 > .img-1 {
+  width: 100%;
+}
+.img > .part-8 > .img-1 > img {
+  width: 500px;
+}
+.img > .part-8 > .txt {
+  width: 100%;
+  margin-right: 10px;
+}
+.img > .part-8 > .txt > span {
+  font-size: 16px;
+  font-family: var(--font);
+  color: rgba(255, 255, 255, 0.2);
+  text-transform: uppercase;
+  padding: 30px 20px 0;
+  display: inline-block;
+}
+.img > .part-8 > .txt > h1 {
+  color: white;
+  font-family: "Abril Fatface", cursive;
+  padding: 10px 20px 0;
+  font-size: 42px;
+}
+.img > .part-8 > .txt > p {
+  font-family: var(--font);
+  color: #666;
+  padding: 10px 20px;
+  line-height: 24px;
+  position: relative;
+  text-align: justify;
+}
+.img > .part-8 > .txt > p::after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  right: 8px;
+  top: 14px;
+  width: 2px;
+  height: 44px;
+  background-color: #f3c623;
+}
+.img > .part-8 > .txt > button {
+  border: none;
+  outline: none;
+  padding: 4px 7px;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 14px 20px 30px;
+  background-color: transparent;
+  border: 1px solid #f3c623;
+  color: #f3c623;
+  letter-spacing: 3px;
+}
+/* ---------------------------------footer----------------------------- */
+.img > .footer {
+  width: 100%;
+}
+.img > .footer > .txt {
+  width:100%;
+  background-color: #f3c623;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 25px 0;
+  margin: 0 auto;
+}
+.img > .footer > .txt > h2 {
+  text-align: center;
+  font-family: var(--font);
+  font-size: 16px;
+}
+.img > .footer > .txt > span {
+  font-size: 20px;
+  padding-left: 4px;
+}
